@@ -1,0 +1,17 @@
+﻿<div class="row bg-danger SectionHeader">
+    <div class="col-sm-3" style="padding-left:0px;">
+        <strong>Raw Data</strong>
+    </div>
+    <div class="col-sm-4">
+        <form action="/Home/Upload" enctype="multipart/form-data" id="frmFile" method="post">
+            <input type="file" accept=".xls,.xlsx" id="btnFile" name="myfile" />
+        </form>
+    </div>
+    <div class="col-sm-5" style="padding-left:0px;">
+        <span id="lblLoading" style="display:none;background-color:yellow;"> &nbsp; Loading... &nbsp; </span>
+        @if (((RazorView)ViewContext.View).ViewPath.ToLower().EndsWith("index.cshtml"))
+        {
+            <span>(100 items max.)</span>
+        }
+    </div>
+</div>

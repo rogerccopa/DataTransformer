@@ -1,0 +1,10 @@
+Region	Category	Item Name	Quantity	Sale Price	Custom Column
+East	Office Supplies	Printer paper	350	14.15	
+Central	Technology	Desktop computer	12	543.99	
+Central	Office Supplies	Punched paper	15	57.99	
+West	Furniture	Sofa bed	4	4050	
+East	Office Supplies	Greeting cards	500	7.99	
+Central	Office Supplies	Business cards	650	16.5	
+West	Technology	Bluetooth keyboard	975	29.99	
+East	Furniture	Mattress	200	1370	
+East	Technology	Wireless mouse	1250	79.99	

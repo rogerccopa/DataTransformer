@@ -1,0 +1,17 @@
+﻿@model System.Web.Mvc.HandleErrorInfo
+
+@{
+    ViewBag.Title = "Error";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>An unknown error has occured.</h2>
+
+@if (Model != null)
+{
+    <!--- View This section in a web browser:
+    <pre>
+        @Model.Exception.ToString()
+    </pre>
+    -->
+}

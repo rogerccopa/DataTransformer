@@ -1,0 +1,43 @@
+﻿.SectionHeader {
+    padding:10px;
+}
+.RawDataContainer {
+    height:200px;
+    overflow: auto;
+}
+.txtIfValue {
+    width:100px;
+}
+
+.tblRules tr {
+    vertical-align: bottom;
+}
+.tblRules .Col1 { width:60%; white-space:nowrap; }
+.tblRules .Col2 { width:40%; padding-left:2px; }
+.tblRules .Col2 * { width:100%; }
+
+.glyphicon {
+    font-size:20px;
+}
+
+.tblData {
+    border-collapse: collapse;
+    overflow-x: scroll;
+    display: block;
+    font-size:12px;
+}
+.tblData thead, .tblData tbody {
+    display: block;
+}
+.tblData tbody {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 140px;
+}
+.tblData td, .tblData th {
+    min-width: 120px;
+    height: 25px;
+}
+.tblData .NoTh {
+    min-width:50px;
+}
